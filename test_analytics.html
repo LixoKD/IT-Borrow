@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vercel Analytics Test</title>
+    <!-- This is the same script used in includes/analytics.php -->
+    <script type="module">
+      import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@1/dist/index.js';
+      inject();
+      console.log('Vercel Analytics script loaded successfully!');
+    </script>
+</head>
+<body>
+    <h1>Vercel Analytics Integration Test</h1>
+    <p>Open browser DevTools Console to verify analytics script loads.</p>
+    <p>Check Network tab for requests to Vercel's analytics endpoints.</p>
+</body>
+</html>
